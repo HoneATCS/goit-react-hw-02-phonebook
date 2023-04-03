@@ -13,7 +13,9 @@ function ContactList({ contacts, onDeleteContact }) {
             className={s.btn}
             type="button"
             onClick={() => onDeleteContact(id)}
-          />
+          >
+            Delete
+          </button>
         </li>
       ))}
     </ul>
